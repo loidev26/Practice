@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,11 +12,9 @@
 		<nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
 			<div class="container">
 				<!-- Brand -->
-				<a 
-				class=" text-white text-decoration-none"
+				<a class=" text-white text-decoration-none"
 				href="#">
-				Analytical Engine
-				</a>
+				Analytical Engine</a>
 
 				<!-- Hamburger Button -->
 				<button
@@ -34,19 +32,19 @@
 				<div class="collapse navbar-collapse bg-primary mt-1" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link active" href="#" aria-current="page">Home</a>
-						</li>	
-
-						<li class="nav-item">
-							<a class="nav-link" href="#">Overview</a>
+							<a class="nav-link active" href="#hero" aria-current="page">Home</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="#">How It Works</a>
+							<a class="nav-link" href="#overview">Overview</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="#">Legacy</a>
+							<a class="nav-link" href="#how-it-works">How It Works</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#legacy">Legacy</a>
 						</li>
 					</ul>
 				</div>
@@ -55,9 +53,9 @@
 
 		<!-- Home Page -->
 		<section id="hero" class="vh-auto bg-secondary text-white text-center">
-			<h2 class="py-3">The Analytical Engine</h2>
-			<p class="w-auto mx-auto">Designed by British mathematician and inventor Charles Babbage in the 1830s.</p>
-			<img class="img-fluid w-75 pb-5" src="images/analyticalEngine.jpeg">
+			<h2 class="py-4">The Analytical Engine</h2>
+			<p class="w-50 mx-auto">Designed by British mathematician and inventor Charles Babbage in the 1830s.</p>
+			<img class="img-fluid w-50 pb-5" src="images/analyticalEngine.jpeg" alt="Analytical Engine Image" />
 		</section>
 
 		<!-- Overview -->
@@ -74,36 +72,93 @@
 		</section>
 
 		<!-- How It Works Page -->
-		<section>
+		<section id="how-it-works" class="vh-auto mt-5">
 			<div class="container">
 				<div class="row">
-					<h3 class="text-center">How It Works</h3>
-					<hr class="border-primary border-2 mt-0" />
-					<div class="card col-md-3">
-						<h3>1. The Mill (The CPU)</h3>
-						<div class="card-body">
-							<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+
+					<div class="container">
+						<h3 class="text-center">How It Works</h3>
+						<hr class="border-primary border-2"/>
+					</div>
+
+					<!-- Card 1 -->
+					<div class="col-md-6 col-lg-3 my-2">
+						<div class="card h-100">
+							<div class="card-header">
+								<h4 class="card-title">The Mill (The CPU)</h4>
+							</div>
+							<div class="card-body">
+								<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+							</div>
 						</div>
 					</div>
-					<div class="card col-md-3">
-						<h3>2. The Store (The Memory)</h3>
-						<div class="card-body">
-							<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+
+					<!-- Card 2 -->
+					<div class="col-sm-12 col-md-6 col-lg-3 my-2">
+						<div class="card h-100">
+							<div class="card-header">
+								<h4 class="card-title">The Store (The Memory)</h4>
+							</div>
+							<div class="card-body">
+								<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+							</div>
 						</div>
 					</div>
-					<div class="card col-md-3">
-						<h3>3. The Input System (The Punched Cards)</h3>
-						<div class="card-body">
-							<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+
+					<!-- Card 3 -->
+					<div class="col-sm-12 col-md-6 col-lg-3 my-2">
+						<div class="card h-100">
+							<div class="card-header">
+								<h4 class="card-title">The Input System (The Punched Cards)</h4>
+							</div>
+							<div class="card-body">
+								<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+							</div>
 						</div>
 					</div>
-					<div class="card col-md-3">
-						<h3>4. The Output System (Printers and Plotters)</h3>
-						<div class="card-body">
-							<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+
+					<!-- Card 4 -->
+					<div class="col-sm-12 col-md-6 col-lg-3 my-2">
+						<div class="card h-100">
+							<div class="card-header">
+								<h4 class="card-title">The Output System (Printers and Plotters)</h4>
+							</div>
+							<div class="card-body">
+								<p>The Mill was the calculating section of the engine. This is where the actual arithmetic operations (addition, subtraction, multiplication, and division) took place. It used a complex system of pegwheels, gears, and barrels to physically manipulate numbers.</p>
+							</div>
 						</div>
-					</div>	
+					</div>
+
+			<!-- Timeline -->
+			<section id="timeline" class="vh-auto mt-2">
+				<!-- Timeline Header -->
+				<div class="container">
+						<h3>Timeline</h3>
+						<hr class="border-primary border-2"/>
 				</div>
+
+					<!-- Timeline Content -->
+					<div class="container">
+						<ul class="list-unstyled py-2">
+							<li class="mb-2"><strong>1834:</strong> Conception & Core Design</li>
+							<li class="mb-2"><strong>1837:</strong> Detailed Blueprints & Architecture</li>
+							<li class="mb-2"><strong>1840 - 1843:</strong> The Menabrea Lecture & Ada Lovelace's Collaboration</li>
+							<li class="mb-2"><strong>1847 - 1849:</strong> Design Refinements & Loss of Support</li>
+						</ul>
+					</div>
+			</section>
+		</section>
+
+		<!-- Legacy -->
+		<section id="legacy" class="vh-auto mt-5">
+			<div class="container">
+				<h3>Legacy</h3>
+				<hr class="border-primary border-2"/>
+				<p>Analytical Engine lies in its status as the conceptual blueprint for modern computing, introducing foundational architecture over a century before the electronics era.
+				<p></p>
+				By separating the machine into a "Store" for memory and a "Mill" for processing, Charles Babbage anticipated the core structure of today's RAM and CPU. Furthermore, its capacity for programmability via punched cards allowed Ada Lovelace to pioneer the concept of software, demonstrating that a single piece of hardware could execute infinite tasks and make logical adjustments through conditional loops.
+				<p></p>
+				Although never physically completed in the 19th century, its logical design directly anticipated the digital revolution, proving that the mechanics of computer science were fully realized long before the invention of the microchip.</p>
 			</div>
 		</section>
 
